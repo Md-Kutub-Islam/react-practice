@@ -1,0 +1,51 @@
+.App {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid gray; */
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.faqCpmonent {
+  display: grid;
+  align-items: start;
+  width: 100%;
+  height: 100%;
+  gap: 20px;
+  /* border: 1px solid gray; */
+  /* padding: 100px 60px; */
+}
+
+.faqItems {
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 100%;
+  padding: 20px 40px;
+  display: grid;
+  align-items: center;
+  justify-content: start;
+  /* gap: 10px; */
+}
+
+.question {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.faqList {
+  display: grid;
+  /* align-items: center; */
+  /* width: 100%; */
+  gap: 20px;
+  /* height: auto; */
+  border: 1px solid gray;
+  padding: 20px;
+  border-radius: 10px;
+}
