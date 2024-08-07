@@ -1,0 +1,35 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.calculator {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  gap: 10px;
+  padding: 30px;
+}
+
+.calculator div p {
+}
+
+.calculator div input {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.btnSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
